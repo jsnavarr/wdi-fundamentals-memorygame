@@ -17,13 +17,17 @@ h1 {
 	margin: 0;
 }
 
-nav {
+nav, #user-score {
 	background-color: #00A6B3;
 	color: #FFFFFF;
 	padding: 20px 0;
 	letter-spacing: 1px;
 	font-weight: 600;
 	font-size: 18px;
+}
+
+#user-score {
+	margin: 10px auto;
 }
 
 main {
@@ -55,7 +59,18 @@ img {
 	margin: 40px 8px;
 }
 div {
-	margin: 0 auto 30px;
+	margin: 0 auto;
+}
+
+button {
+	padding: 5px 5px;
+	margin: 0 30px 0 30px;
+	font-size: 20px;
+	background: #F15B31;
+	color: #FFFFFF;
+	text-align: center;
+	border: 2px solid steelblue;
+	border-radius: 5px 5px;
 }
 
 footer {
@@ -66,6 +81,7 @@ footer {
 	font-size: 14px;
 	letter-spacing: .08em;
 	font-weight: 500;
+	margin: 10px 0;
 }
 
 .copyright {
